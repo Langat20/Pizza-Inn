@@ -86,3 +86,9 @@ h2 {
     padding-top: 80px;
 }
 
+.menu {
+    background-color: rgba(248, 186, 16, 0.774);
+    height: 500px;
+    padding: 50px 350px;
+}
+
