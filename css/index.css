@@ -14,21 +14,15 @@ a:link {
 }
 
 
-/* visited link */
-
 a:visited {
     color: whites;
 }
 
 
-/* mouse over link */
-
 a:hover {
     color: rgb(255, 187, 61);
 }
 
-
-/* selected link */
 
 a:active {
     color: rgb(255, 187, 61);
@@ -91,4 +85,15 @@ h2 {
     height: 500px;
     padding: 50px 350px;
 }
+.menu h3,
+.order h3 {
+    text-align: center;
+}
+
+.order {
+    background-color:rgba(248, 186, 16, 0.774);
+    height: 900px;
+    padding: 50px 350px;
+}
+
 
