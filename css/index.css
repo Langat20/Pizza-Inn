@@ -88,12 +88,25 @@ h2 {
 .menu h3,
 .order h3 {
     text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 40px;
+    color: green;
 }
 
 .order {
     background-color:rgba(248, 186, 16, 0.774);
     height: 900px;
     padding: 50px 350px;
+}
+.contact {
+    color: rgb(255, 217, 0);
+    background-color: rgb(24, 23, 21);
+    padding: 50px 350px;
+    height: 400px;
+}
+.bottom{
+    display: flex;
 }
 
 
