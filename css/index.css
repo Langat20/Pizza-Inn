@@ -108,5 +108,9 @@ h2 {
 .bottom{
     display: flex;
 }
-
+.footer {
+    background-color: rgb(255, 217, 0);
+    font-size: 20px;
+    text-align: center
+}
 
