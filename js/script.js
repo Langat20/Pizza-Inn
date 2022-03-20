@@ -77,5 +77,11 @@ $(document).ready(function() {
         });
 
     })
+    var deletebtn = $(".remove");
+    deletebtn.addClass('Remove')
+    deletebtn.click(function(e) {
+        const btn = e.target;
+        btn.closest('tr').remove();
+    })
 
 })
