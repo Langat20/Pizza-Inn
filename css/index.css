@@ -105,12 +105,39 @@ h2 {
     padding: 50px 350px;
     height: 400px;
 }
-.bottom{
-    display: flex;
-}
+
 .footer {
-    background-color: rgb(255, 217, 0);
+    background-color: rgba(231, 202, 39, 0.473);
     font-size: 20px;
     text-align: center
 }
+@media only screen and (max-width: 400px){
+    .nav, .head, .word{
+      height: auto;
+    }
+    .word h2{
+      margin-top: 30px;
+    }
+    .imall{
+      height: 200px;
+      width: 300px;
+      margin-left: 0px;
+      text-align: center;
 
+    }
+    #order, #overlay{
+      height: auto;
+    }
+    .map{
+      width: 100%;
+      margin-left: 0px;
+    }
+    #location{
+      height: auto;
+      width: 100%;
+      text-align: center;
+    }
+    #orderbtn{
+      margin-left: 70px;
+    }
+  }
