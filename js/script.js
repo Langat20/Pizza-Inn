@@ -48,4 +48,24 @@ $(document).ready(function() {
         var totalCost = quantity * (price + crustPrice + toppingPrice);
         var overalCost = parseInt(totalCost);
 
+        $(".cart").append(
+            `
+                            <tr>
+                                <td>${size}</td> 
+                                <td>${crust}</td>
+                                <td>${toppings}</td>
+                                <td>${quantity}</td>
+                                <td>${location}</td>
+                                <td>${overalCost}</td>
+                                <td><button class="btn remove">remove</button></td>
+                            </tr>
+                            `
+        )
+
+
+    })
+
+    var value;
+    var theTotal = 0;
+
 })
