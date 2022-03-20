@@ -43,6 +43,9 @@ $(document).ready(function() {
             alert("Please select your size!")
             price = 0;
         }
-        
+
+
+        var totalCost = quantity * (price + crustPrice + toppingPrice);
+        var overalCost = parseInt(totalCost);
 
 })
